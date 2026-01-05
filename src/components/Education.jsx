@@ -36,7 +36,7 @@ const Education = () => {
       type: "Experience",
       title: "Web Development Internship",
       institution: "Innojs Infotech Pvt. Ltd., Palampur",
-      year: "Mar 2025 - Oct 2025",
+      year: "Jan 2025 - June 2025",
       icon: <Briefcase size={22} />,
       details:
         "Worked as a web development intern at a startup. Enhanced UI/UX design skills and collaborated on live client projects. Gained hands-on experience in React, Next.js, PHP, Laravel, and MySQL.",
@@ -45,10 +45,19 @@ const Education = () => {
       type: "Experience",
       title: "Full Stack Web Developer",
       institution: "Innojs Infotech Pvt. Ltd., Palampur",
-      year: "Oct 2025 - Present",
+      year: "July 2025 - Dec 2025",
       icon: <Briefcase size={22} />,
       details:
-        "Currently working as a Full Stack Developer. Responsible for building responsive, scalable web applications using MERN stack and integrating RESTful APIs for seamless user experiences.",
+        "Served as a Full Stack Developer, delivering scalable MERN stack applications, implementing RESTful APIs, and completing 20+ live client projects.",
+    },
+    {
+      type: "Experience",
+      title: "Senior Full Stack Developer",
+      institution: "ITx Sential, Zirakpur",
+      year: "Dec 2025 - Present",
+      icon: <Briefcase size={22} />,
+      details:
+        "I am currently working as a Senior Full Stack Developer at ITX Sential, Zirakpur, where I build and maintain scalable web applications across the frontend and backend.",
     },
   ];
 

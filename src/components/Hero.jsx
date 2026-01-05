@@ -19,7 +19,11 @@ const Hero = () => {
             Hi, I'm <span>Vishal Choudhary</span>
           </h1>
           <h2>
-            Full Stack Developer | MERN Stack | React | Frontend Developer
+           <span className="dot">.</span> Full Stack Developer | MERN Stack | NextJs
+            <br />
+           <span className="dot">.</span> Wordpress | Hosting | SEO
+           <br />
+           <span className="dot">.</span> PHP | Laravel | MySQL
           </h2>
           <p>
             I build modern, scalable, and high-performing web applications with

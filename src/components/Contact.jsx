@@ -118,7 +118,7 @@ const Contact = () => {
             <div className="info-item">
               <Instagram size={20} />
               <a
-                href="https://www.instagram.com/dev_vishal_37/"
+                href="https://www.instagram.com/vishal_webdev"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -140,7 +140,7 @@ const Contact = () => {
             <div className="info-item">
               <MapPin size={20} />
              <a
-                href="https://maps.app.goo.gl/CELZ1arwKPxvrGsh6"
+                href="https://maps.app.goo.gl/v8qQFkXwit6hmpb77"
                 target="_blank"
                 rel="noopener noreferrer"
               >

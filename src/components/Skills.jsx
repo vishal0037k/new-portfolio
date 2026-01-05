@@ -23,7 +23,7 @@ const Skills = () => {
     {
       title: "Tools & Platforms",
       icon: <Wrench size={24} />,
-      skills: ["Git", "GitHub", "Postman", "Jquery", "Email.js", "Netlify", "VS Code", "Open weather", "XAMPP", "ChatGPT", "BlackboxAI", "Figma", "Canva", "Ai Bot Integration (Zapier)"],
+      skills: ["Git", "GitHub", "Postman", "Jquery", "Email.js", "Netlify", "VS Code", "Open weather", "XAMPP", "ChatGPT", "BlackboxAI", "Figma", "Canva", "Ai Integration", "Wordpress", "Hosting", "Cpannel", "SEO"],
     },
   ];
 

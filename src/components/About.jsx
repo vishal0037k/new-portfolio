@@ -28,7 +28,7 @@ const About = () => {
           <p>
             Hello! I'm <span>Vishal Choudhary</span>, a passionate{" "}
             <strong>Full Stack Developer</strong> and{" "}
-            <strong>MERN Stack Specialist</strong> from Himachal Pradesh,
+            <strong>Web Development Specialist</strong> from Himachal Pradesh,
             India. I have a strong interest in creating innovative, interactive,
             and user-friendly web applications that merge creativity with
             performance. My journey into tech started with curiosity — I always
@@ -40,7 +40,7 @@ const About = () => {
             I specialize in technologies like <strong>React.js</strong>,{" "}
             <strong>Node.js</strong>, <strong>Express.js</strong>,{" "}
             <strong>MongoDB</strong>, and I’m always exploring new frameworks
-            such as <strong>Next.js</strong> and <strong>Laravel</strong>. I
+            such as <strong>Next.js</strong> and <strong>PHP, Laravel, MySQL</strong> and also <strong>Wordpress</strong>, <strong>Hosting - CPannel</strong>, <strong>SEO</strong>. I
             love working on real-world projects that challenge me to learn
             continuously and help me evolve as a developer. My focus is on
             building scalable, maintainable, and high-performing digital

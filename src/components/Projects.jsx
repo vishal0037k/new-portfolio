@@ -1,3 +1,127 @@
+// import React from "react";
+// import { motion } from "framer-motion";
+// import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Navigation, Autoplay } from "swiper/modules";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import "./Projects.css";
+
+
+
+//   return (
+//     <section id="projects" className="projects-section">
+//       <div className="projects-container">
+//         <motion.h2
+//           className="projects-heading"
+//           initial={{ opacity: 0, y: 40 }}
+//           whileInView={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.6 }}
+//           viewport={{ once: true }}
+//         >
+//           My Projects
+//         </motion.h2>
+
+         
+// <br />
+//         <Swiper
+//           modules={[Navigation, Autoplay]}
+//           spaceBetween={30}
+//           slidesPerView={3}
+//           navigation={{
+//             nextEl: ".swiper-button-next",
+//             prevEl: ".swiper-button-prev",
+//           }}
+//           autoplay={{ delay: 3000, disableOnInteraction: false }}
+//           loop={true}
+//           breakpoints={{
+//             0: { slidesPerView: 1 },
+//             768: { slidesPerView: 2 },
+//             1024: { slidesPerView: 3 },
+//           }}
+//           className="projects-swiper"
+//         >
+//           {projects.map((project, index) => (
+//             <SwiperSlide key={index}>
+//               <motion.div
+//                 className="project-card"
+//                 initial={{ opacity: 0, y: 50 }}
+//                 whileInView={{ opacity: 1, y: 0 }}
+//                 transition={{ duration: 0.6 }}
+//                 viewport={{ once: true }}
+//               >
+//                 <div className="project-content">
+//                   <h3>{project.title}</h3>
+//                   <p>{project.description}</p>
+
+//                   <div className="tech-stack">
+//                     {project.tech.map((t, i) => (
+//                       <span key={i}>{t}</span>
+//                     ))}
+//                   </div>
+
+//                   <div className="project-links">
+//                     <a
+//                       href={project.live}
+//                       target="_blank"
+//                       rel="noopener noreferrer"
+//                       className="btn-live"
+//                     >
+//                       <ExternalLink size={16} /> Live Demo
+//                     </a>
+//                     <a
+//                       href={project.github}
+//                       target="_blank"
+//                       rel="noopener noreferrer"
+//                       className="btn-github"
+//                     >
+//                       <Github size={16} /> GitHub
+//                     </a>
+//                   </div>
+//                 </div>
+//               </motion.div>
+//             </SwiperSlide>
+//           ))}
+//         </Swiper>
+
+//         {/* Navigation Buttons */}
+//         <div className="swiper-navigation">
+//           <button className="swiper-button-prev">
+//             <ChevronLeft size={22} />
+//           </button>
+//           <button className="swiper-button-next">
+//             <ChevronRight size={22} />
+//           </button>
+//         </div>
+// {/* View More Button */}
+//         <motion.div
+//           className="view-more-container"
+//           initial={{ opacity: 0 }}
+//           whileInView={{ opacity: 1 }}
+//           transition={{ delay: 0.2 }}
+//           viewport={{ once: true }}
+//         >
+//           <a
+//             href="https://github.com/vishal0037k?tab=repositories"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="view-more-btn"
+//           >
+//             <Github size={18} /> View More Projects on GitHub
+//           </a>
+//         </motion.div>
+       
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Projects;
+
+
+
+
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
@@ -5,7 +129,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "./Projects.css";
 
 const Projects = () => {
@@ -59,6 +182,14 @@ const Projects = () => {
       github: "https://github.com/vishal0037k/crm-software-website",
     },
     {
+      title: "Real Time Chat",
+      description:
+        "Designed and developed a full-featured CRM application using Next.js and MongoDB, implementing secure user authentication, RESTful APIs for complete CRUD operations, and a clean, responsive UI to manage clients, leads, and business workflows efficiently.",
+      tech: ["React.js", "vite", "Firebase", "Realtime chat"],
+      live: "https://independent-chat.netlify.app/",
+      github: "https://github.com/vishal0037k/Reat-time-chat-website",
+    },
+    {
       title: "Food Cart Website",
       description:
         "Created a modern and responsive website for Thela Tales, a local food cart in Palampur specializing in Vada Pav and street snacks. Designed an engaging UI with smooth navigation, menu showcase, and location details to promote the brand and attract nearby customers.",
@@ -89,7 +220,82 @@ const Projects = () => {
           My Projects
         </motion.h2>
 
-         {/* View More Button */}
+        <br />
+
+        {/* 🔥 WRAPPER (IMPORTANT) */}
+        <div className="projects-slider-wrapper">
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            spaceBetween={30}
+            slidesPerView={3}
+            navigation={{
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            loop={true}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+            className="projects-swiper"
+          >
+            {projects.map((project, index) => (
+              <SwiperSlide key={index}>
+                <motion.div
+                  className="project-card"
+                  initial={{ opacity: 0, y: 50 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6 }}
+                  viewport={{ once: true }}
+                >
+                  <div className="project-content">
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+
+                    <div className="tech-stack">
+                      {project.tech.map((t, i) => (
+                        <span key={i}>{t}</span>
+                      ))}
+                    </div>
+
+                    <div className="project-links">
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-live"
+                      >
+                        <ExternalLink size={16} /> Live Demo
+                      </a>
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-github"
+                      >
+                        <Github size={16} /> GitHub
+                      </a>
+                    </div>
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+          {/* ✅ Navigation Buttons */}
+          <div className="swiper-navigation">
+            <button className="swiper-button-prev">
+              <ChevronLeft size={22} />
+            </button>
+            <button className="swiper-button-next">
+              <ChevronRight size={22} />
+            </button>
+          </div>
+        </div>
+
+        {/* View More */}
         <motion.div
           className="view-more-container"
           initial={{ opacity: 0 }}
@@ -106,78 +312,6 @@ const Projects = () => {
             <Github size={18} /> View More Projects on GitHub
           </a>
         </motion.div>
-<br />
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          spaceBetween={30}
-          slidesPerView={3}
-          navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          }}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          loop={true}
-          breakpoints={{
-            0: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          className="projects-swiper"
-        >
-          {projects.map((project, index) => (
-            <SwiperSlide key={index}>
-              <motion.div
-                className="project-card"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-              >
-                <div className="project-content">
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
-
-                  <div className="tech-stack">
-                    {project.tech.map((t, i) => (
-                      <span key={i}>{t}</span>
-                    ))}
-                  </div>
-
-                  <div className="project-links">
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-live"
-                    >
-                      <ExternalLink size={16} /> Live Demo
-                    </a>
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-github"
-                    >
-                      <Github size={16} /> GitHub
-                    </a>
-                  </div>
-                </div>
-              </motion.div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-
-        {/* Navigation Buttons */}
-        <div className="swiper-navigation">
-          <button className="swiper-button-prev">
-            <ChevronLeft size={22} />
-          </button>
-          <button className="swiper-button-next">
-            <ChevronRight size={22} />
-          </button>
-        </div>
-
-       
       </div>
     </section>
   );
