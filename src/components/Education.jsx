@@ -52,12 +52,21 @@ const Education = () => {
     },
     {
       type: "Experience",
-      title: "Senior Full Stack Developer",
+      title: "Full Stack Web Developer Internship (ISO-CERTIFIED)",
+      institution: "Unified Mentor, Remote",
+      year: "Nov 2025 - Jan 2025",
+      icon: <Briefcase size={22} />,
+      details:
+        "Developed multiple full-stack applications with secure authentication systems, protected routes, and API integrations.",
+    },
+    {
+      type: "Experience",
+      title: "Full Stack Developer",
       institution: "ITx Sential, Zirakpur",
       year: "Dec 2025 - Present",
       icon: <Briefcase size={22} />,
       details:
-        "I am currently working as a Senior Full Stack Developer at ITX Sential, Zirakpur, where I build and maintain scalable web applications across the frontend and backend.",
+        "I am currently working as a Senior Full Stack Developer at ITX Sential, Zirakpur, where I build and maintain scalable web applications across the frontend, backend & Database.",
     },
   ];
 

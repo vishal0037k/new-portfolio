@@ -25,35 +25,43 @@ const About = () => {
         >
           <h2>About Me</h2>
 
-          <p>
-            Hello! I'm <span>Vishal Choudhary</span>, a passionate{" "}
-            <strong>Full Stack Developer</strong> and{" "}
-            <strong>Web Development Specialist</strong> from Himachal Pradesh,
-            India. I have a strong interest in creating innovative, interactive,
-            and user-friendly web applications that merge creativity with
-            performance. My journey into tech started with curiosity — I always
-            wanted to understand how the web works. Over time, that curiosity
-            turned into a deep passion for coding and problem-solving.
-          </p>
+         <p>
+  Hello! I'm <span>Vishal Choudhary</span>, a passionate and results-driven 
+  <strong> Full Stack Developer </strong> from Himachal Pradesh, India. 
+  I specialize in building modern, scalable, and secure web applications 
+  that combine clean design with powerful backend architecture. 
+  My journey into technology began with curiosity about how websites work — 
+  that curiosity quickly evolved into a deep passion for development, 
+  problem-solving, and continuous learning.
+</p>
 
-          <p>
-            I specialize in technologies like <strong>React.js</strong>,{" "}
-            <strong>Node.js</strong>, <strong>Express.js</strong>,{" "}
-            <strong>MongoDB</strong>, and I’m always exploring new frameworks
-            such as <strong>Next.js</strong> and <strong>PHP, Laravel, MySQL</strong> and also <strong>Wordpress</strong>, <strong>Hosting - CPannel</strong>, <strong>SEO</strong>. I
-            love working on real-world projects that challenge me to learn
-            continuously and help me evolve as a developer. My focus is on
-            building scalable, maintainable, and high-performing digital
-            products that make a difference.
-          </p>
+<p>
+  My core expertise includes <strong>React.js</strong>, <strong>Node.js</strong>, 
+  <strong>Express.js</strong>, and <strong>MongoDB (MERN Stack)</strong>. 
+  I also work with <strong>Next.js</strong>, <strong>PHP</strong>, 
+  <strong>Laravel</strong>, <strong>MySQL</strong>, and <strong>Firebase</strong>. 
+  Beyond development, I handle <strong>WordPress</strong> customization, 
+  <strong>Domain & Hosting setup</strong>, <strong>cPanel management</strong>, 
+  <strong>SEO optimization</strong>, and website performance tuning. 
+  I focus strongly on <strong>security practices</strong>, including 
+  malware removal, hack prevention, and secure deployment strategies 
+  to ensure reliable and protected web experiences.
+</p>
 
-          <p>
-            Apart from coding, I’m a person who believes in balance — I’m
-            passionate about exploring new places, listening to soulful music,
-            and keeping myself active through sports. I believe these
-            activities keep my creativity flowing and help me stay focused even
-            after long hours of screen time.
-          </p>
+<p>
+  I enjoy working on real-world projects that challenge my creativity 
+  and technical skills. My goal is to deliver digital solutions that are 
+  scalable, maintainable, and performance-driven. I believe in writing 
+  clean, efficient code and constantly improving my skillset to stay 
+  aligned with modern industry standards.
+</p>
+
+<p>
+  Outside of development, I believe in maintaining balance. I enjoy 
+  traveling, listening to music, and playing sports like badminton. 
+  These activities keep me energized, creative, and focused — helping 
+  me stay productive even during intense development cycles.
+</p>
         </motion.div>
 
         {/* Hobbies Section */}

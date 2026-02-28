@@ -155,6 +155,8 @@
 .view-more-container {
   text-align: center;
   margin-top: -450px;
+   position: relative;
+  z-index: 1;
 }
 
 .view-more-btn {
@@ -168,6 +170,7 @@
   font-size: 0.95rem;
   transition: all 0.35s ease;
   text-decoration: none;
+  z-index: 10;
 }
 
 .view-more-btn:hover {

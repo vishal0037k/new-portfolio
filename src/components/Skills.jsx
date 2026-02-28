@@ -4,28 +4,77 @@ import { Code, Layers, Database, Wrench } from "lucide-react";
 import "./Skills.css";
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: "Frontend Development",
-      icon: <Code size={24} />,
-      skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "Bootstrap", "React.js", "Next.js", "Framer motion", "Swiper", "Recharts"],
-    },
-    {
-      title: "Backend Development",
-      icon: <Layers size={24} />,
-      skills: ["Node.js", "Express.js", "PHP", "Laravel", "MVC Pattern", "CRUD", "Api's", "Data structures & Schema"],
-    },
-    {
-      title: "Databases",
-      icon: <Database size={24} />,
-      skills: ["MongoDB", "MySQL", "Local Storage", "Session Storage"],
-    },
-    {
-      title: "Tools & Platforms",
-      icon: <Wrench size={24} />,
-      skills: ["Git", "GitHub", "Postman", "Jquery", "Email.js", "Netlify", "VS Code", "Open weather", "XAMPP", "ChatGPT", "BlackboxAI", "Figma", "Canva", "Ai Integration", "Wordpress", "Hosting", "Cpannel", "SEO"],
-    },
-  ];
+ const skillCategories = [
+  {
+    title: "Frontend Development",
+    icon: <Code size={24} />,
+    skills: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "Bootstrap",
+      "React.js",
+      "Next.js",
+      "Framer Motion",
+      "Swiper.js",
+      "Recharts",
+    ],
+  },
+  {
+    title: "Backend Development",
+    icon: <Layers size={24} />,
+    skills: [
+      "Node.js",
+      "Express.js",
+      "PHP",
+      "Laravel",
+      "RESTful APIs",
+      "MVC Architecture",
+      "CRUD Operations",
+      "Data Structures & Schema Design",
+      "Authentication & Authorization",
+    ],
+  },
+  {
+    title: "Databases & Cloud",
+    icon: <Database size={24} />,
+    skills: [
+      "MongoDB",
+      "MySQL",
+      "Firebase (Auth & Firestore)",
+      "Local Storage",
+      "Session Storage",
+    ],
+  },
+  {
+    title: "Tools, CMS & DevOps",
+    icon: <Wrench size={24} />,
+    skills: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "jQuery",
+      "EmailJS",
+      "Netlify",
+      "VS Code",
+      "XAMPP",
+      "Figma",
+      "Canva",
+      "AI Integration",
+      "WordPress",
+      "Shopify",
+      "Domain & DNS Management",
+      "Hosting Setup",
+      "cPanel Management",
+      "Namecheap",
+      "Hostinger",
+      "SEO Optimization",
+      "Website Security",
+      "Hack Prevention",
+      "Malware Removal",
+    ],
+  },
+];
 
   return (
     <section id="skills" className="skills-section">

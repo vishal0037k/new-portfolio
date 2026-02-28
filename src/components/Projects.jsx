@@ -1,127 +1,3 @@
-// import React from "react";
-// import { motion } from "framer-motion";
-// import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation, Autoplay } from "swiper/modules";
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// import "./Projects.css";
-
-
-
-//   return (
-//     <section id="projects" className="projects-section">
-//       <div className="projects-container">
-//         <motion.h2
-//           className="projects-heading"
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 0.6 }}
-//           viewport={{ once: true }}
-//         >
-//           My Projects
-//         </motion.h2>
-
-         
-// <br />
-//         <Swiper
-//           modules={[Navigation, Autoplay]}
-//           spaceBetween={30}
-//           slidesPerView={3}
-//           navigation={{
-//             nextEl: ".swiper-button-next",
-//             prevEl: ".swiper-button-prev",
-//           }}
-//           autoplay={{ delay: 3000, disableOnInteraction: false }}
-//           loop={true}
-//           breakpoints={{
-//             0: { slidesPerView: 1 },
-//             768: { slidesPerView: 2 },
-//             1024: { slidesPerView: 3 },
-//           }}
-//           className="projects-swiper"
-//         >
-//           {projects.map((project, index) => (
-//             <SwiperSlide key={index}>
-//               <motion.div
-//                 className="project-card"
-//                 initial={{ opacity: 0, y: 50 }}
-//                 whileInView={{ opacity: 1, y: 0 }}
-//                 transition={{ duration: 0.6 }}
-//                 viewport={{ once: true }}
-//               >
-//                 <div className="project-content">
-//                   <h3>{project.title}</h3>
-//                   <p>{project.description}</p>
-
-//                   <div className="tech-stack">
-//                     {project.tech.map((t, i) => (
-//                       <span key={i}>{t}</span>
-//                     ))}
-//                   </div>
-
-//                   <div className="project-links">
-//                     <a
-//                       href={project.live}
-//                       target="_blank"
-//                       rel="noopener noreferrer"
-//                       className="btn-live"
-//                     >
-//                       <ExternalLink size={16} /> Live Demo
-//                     </a>
-//                     <a
-//                       href={project.github}
-//                       target="_blank"
-//                       rel="noopener noreferrer"
-//                       className="btn-github"
-//                     >
-//                       <Github size={16} /> GitHub
-//                     </a>
-//                   </div>
-//                 </div>
-//               </motion.div>
-//             </SwiperSlide>
-//           ))}
-//         </Swiper>
-
-//         {/* Navigation Buttons */}
-//         <div className="swiper-navigation">
-//           <button className="swiper-button-prev">
-//             <ChevronLeft size={22} />
-//           </button>
-//           <button className="swiper-button-next">
-//             <ChevronRight size={22} />
-//           </button>
-//         </div>
-// {/* View More Button */}
-//         <motion.div
-//           className="view-more-container"
-//           initial={{ opacity: 0 }}
-//           whileInView={{ opacity: 1 }}
-//           transition={{ delay: 0.2 }}
-//           viewport={{ once: true }}
-//         >
-//           <a
-//             href="https://github.com/vishal0037k?tab=repositories"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="view-more-btn"
-//           >
-//             <Github size={18} /> View More Projects on GitHub
-//           </a>
-//         </motion.div>
-       
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
-
-
-
-
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
@@ -303,14 +179,14 @@ const Projects = () => {
           transition={{ delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <a
-            href="https://github.com/vishal0037k?tab=repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="view-more-btn"
-          >
-            <Github size={18} /> View More Projects on GitHub
-          </a>
+         <a
+  href="https://github.com/vishal0037k"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="view-more-btn"
+>
+  <Github size={18} /> View More Projects on GitHub
+</a>
         </motion.div>
       </div>
     </section>

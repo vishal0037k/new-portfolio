@@ -97,3 +97,9 @@
     font-size: 2.2rem;
   }
 }
+
+
+.skill-card:last-child {
+ margin: 0px auto;
+  width: 80vw;
+}

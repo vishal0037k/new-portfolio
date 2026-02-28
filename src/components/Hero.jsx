@@ -18,17 +18,25 @@ const Hero = () => {
           <h1>
             Hi, I'm <span>Vishal Choudhary</span>
           </h1>
-          <h2>
-           <span className="dot">.</span> Full Stack Developer | MERN Stack | NextJs
-            <br />
-           <span className="dot">.</span> Wordpress | Hosting | SEO
-           <br />
-           <span className="dot">.</span> PHP | Laravel | MySQL
-          </h2>
-          <p>
-            I build modern, scalable, and high-performing web applications with
-            clean UI and powerful backend integrations.
-          </p>
+         <h2>
+  <span className="dot">.</span> Full Stack Developer | MERN Stack | Next.js  
+  <br />
+  <span className="dot">.</span> PHP | Laravel | MySQL | Firebase  
+  <br />
+  <span className="dot">.</span> WordPress | Shopify | SEO Optimization  
+  <br />
+  <span className="dot">.</span> Domain & Hosting | cPanel | Server Management  
+  <br />
+  <span className="dot">.</span> Website Security | Malware Removal | Hack Prevention
+</h2>
+
+<p>
+  I build modern, scalable, and secure web applications with clean UI,
+  optimized performance, and powerful backend integrations. From development
+  to deployment, I handle domain setup, hosting configuration, cPanel
+  management, and advanced website security to ensure reliable and protected
+  digital experiences.
+</p>
           <div className="hero-buttons">
             <a href={resume} download className="btn btn-primary">
               Download Resume
