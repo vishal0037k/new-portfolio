@@ -53,6 +53,8 @@ const Skills = () => {
       "Git",
       "GitHub",
       "Postman",
+      "CI/CD",
+      "Docker",
       "jQuery",
       "EmailJS",
       "Netlify",

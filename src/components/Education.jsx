@@ -62,11 +62,11 @@ const Education = () => {
     {
       type: "Experience",
       title: "Full Stack Developer",
-      institution: "ITx Sential, Zirakpur",
+      institution: "ITx Sential, Mohali",
       year: "Dec 2025 - Present",
       icon: <Briefcase size={22} />,
       details:
-        "I am currently working as a Senior Full Stack Developer at ITX Sential, Zirakpur, where I build and maintain scalable web applications across the frontend, backend & Database.",
+        "Currently serving as a Senior Full Stack Developer at ITX Sential, Mohali, specializing in the development and maintenance of scalable, production-ready web applications. My role encompasses full-stack development, database management, live production support, client communication, project ownership, hosting and server administration, domain management, website deployment, cybersecurity implementation, malware protection, performance optimization, and ensuring high availability and security of business-critical web platforms.",
     },
   ];
 
